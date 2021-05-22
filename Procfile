@@ -1,1 +1,1 @@
-web: superset db upgrade
+web: superset run -p 8088
