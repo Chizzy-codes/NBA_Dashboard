@@ -1,1 +1,1 @@
-web: superset db upgrade
+web: superset runserver
