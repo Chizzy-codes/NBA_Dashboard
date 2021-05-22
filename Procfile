@@ -1,1 +1,1 @@
-web: superset run -p $PORT
+web: superset run
