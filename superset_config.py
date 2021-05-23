@@ -5,6 +5,8 @@ ROW_LIMIT = 5000
 
 SUPERSET_WEBSERVER_PORT = os.environ['PORT']
 
+#SUPERSET_WORKERS = 1  # for it to work in heroku basic/hobby dynos increase as you like
+
 # Flask App Builder configuration
 # Your App secret key
 SECRET_KEY = 'lK-Ef8QDSHyQ_eCuPuS26h7EER19IRDfy9D0N5rcHtA='
