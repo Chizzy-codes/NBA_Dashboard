@@ -1,1 +1,1 @@
-worker: superset_config.py
+worker: python superset_config.py
