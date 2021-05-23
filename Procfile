@@ -1,1 +1,1 @@
-web: superset run --port $PORT
+web: superset run --port $PORT --with-threads
