@@ -1,1 +1,1 @@
-worker: python superset_config.py
+web: superset run
