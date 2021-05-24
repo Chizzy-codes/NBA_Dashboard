@@ -1,0 +1,13 @@
+I recently completed a full-stack, end-end data science project called NBA Players. The aim of this was to simplify and limit the time it takes for an NBA fan or a curious individual to find out useful facts about the current active players in the NBA.
+
+
+
+The data pipeline for this process was built and scheduled (weekly) using Apache Airflow (https://airflow.apache.org/). The first component of the workflow was data collection. I used the NBA website as my data source and proceeded to gather data on all active players. This data is inserted into a sqlite3 database file and stored in a data lake; which in this case is a simple file folder (Second Component).
+
+
+
+The third component extracts the most recent entry to the data lake and performs a custom ETL (Extraction, Transformation and Loading) process on the data. The processed data is then stored or used to update my data warehouse; a remote PostgreSQL Database instance on elephantsql.com. 
+
+
+
+I also developed an outlier detection machine learning model to identify outlier players present in the database (Jupyter Notebook link: https://nbviewer.jupyter.org/github/Chizzy-codes/NBA_Players_Project_Fullstack_Datascience/blob/master/jupyter_notebook/project_notebook.ipynb) and published an Apache Superset Dashboard.
