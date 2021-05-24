@@ -1,1 +1,1 @@
-web: superset run --with-threads --reload --debugger
+web: superset run --port $PORT --with-threads --reload --debugger
