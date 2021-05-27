@@ -1,1 +1,1 @@
-web: superset run -p $PORT
+web: gunicorn "superset.app:create_app()"
