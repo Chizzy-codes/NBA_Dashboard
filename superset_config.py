@@ -12,7 +12,7 @@ MAPBOX_API_KEY = os.getenv('MAPBOX_API_KEY')
 # Flask App Builder configuration
 # ---------------------------------------------------------
 # Your App secret key
-SECRET_KEY = 'lK-Ef8QDSHyQ_eCuPuS26h7EER19IRDfy9D0N5rcHtA='
+SECRET_KEY = 'Enter your secret key here'
 
 # The SQLAlchemy connection string to your database backend
 # This connection defines the path to the database that stores your
