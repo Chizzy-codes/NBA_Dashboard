@@ -21,11 +21,11 @@ SECRET_KEY = 'Enter your secret key here'
 # you want to explore are managed directly in the web UI
 SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 
-CACHE_CONFIG = {
-    'CACHE_TYPE': 'redis',
-    'CACHE_DEFAULT_TIMEOUT': 86400,
-    'CACHE_KEY_PREFIX': 'superset_results',
-    'CACHE_REDIS_URL': 'redis://localhost:6379/0'}
+# CACHE_CONFIG = {
+#     'CACHE_TYPE': 'redis',
+#     'CACHE_DEFAULT_TIMEOUT': 86400,
+#     'CACHE_KEY_PREFIX': 'superset_results',
+#     'CACHE_REDIS_URL': 'redis://localhost:6379/0'}
 
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 
