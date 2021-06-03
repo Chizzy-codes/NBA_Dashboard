@@ -3,4 +3,3 @@ catboost_info
 .venv/
 __init__.py
 __pycache__/
-.Dockerfile*
