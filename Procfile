@@ -1,1 +1,1 @@
-web: gunicorn "superset.app:create_app()"
+web: superset db upgrade
